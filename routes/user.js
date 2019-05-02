@@ -31,7 +31,7 @@ router.get('/list/:pageNumber', (req, res) => {
                         rank: 1,
                         first_name: 1,
                         last_name: 1,
-                        id_mal:1,
+                        id_mal: 1,
                         unit_name,
                         username,
                     }
