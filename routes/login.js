@@ -95,7 +95,7 @@ router.post("/register", (req, res) => {
         }
     );
 });
-5. บรรทั ดรองสุดท้ าย เพิ่ มฟั งก์ ชั น router.post('/verifyToken') ตามคาสั่ งดั งนี้
+
 router.post('/verifyToken', (req, res) => {
     jwt.verify(
         req.body.token,
